@@ -28,8 +28,35 @@ let obj = {
     age: 25
 }
 
-const myFunction = function() {
+const myFunction = function () {
     console.log("Hello World");
 }
 
 console.log(typeof heros);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "nihallakrayt"
+
+let anotherName = myYoutubeName
+anotherName = "yoyoyoBeyatch"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "nihal@paytm"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Sunshine@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
