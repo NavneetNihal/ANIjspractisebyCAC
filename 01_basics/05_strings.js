@@ -19,7 +19,9 @@ console.log(gameName.indexOf('A'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(0, 13)
+
+const nihal = ("sunshine")
+const anotherString = nihal.slice(-8, 5)
 console.log(anotherString);
 
 const newStringOne = "     Nihal    "
