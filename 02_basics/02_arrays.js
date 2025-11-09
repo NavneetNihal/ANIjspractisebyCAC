@@ -22,7 +22,10 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Nihal"))
 console.log(Array.from("Nihal"))
-console.log(Array.from({name: "Nihal"})) //intersting case
+console.log(Array.from({name: "Nihala"})) 
+console.log(Array.from(Object.entries({name: "Nihal"}))) //intersting case
+console.log(Array.from(Object.values({name: "Nihal"}))) 
+console.log(Array.from(Object.keys({name: "Nihal"}))) 
 
 let score1 = 100
 let score2 = 200
