@@ -1,0 +1,13 @@
+{
+"name": "JavaScript Development",
+"image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+"customizations": {
+"vscode": {
+"extensions": [
+"dbaeumer.vscode-eslint"
+]
+}
+},
+"postCreateCommand": "npm install",
+"forwardPorts": [3000]
+}
